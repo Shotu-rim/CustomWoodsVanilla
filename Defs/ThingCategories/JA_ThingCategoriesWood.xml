@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingCategoryDef>
+    <defName>Woody</defName>
+    <label>wood</label>
+    <parent>ResourcesRaw</parent>
+  </ThingCategoryDef>
+  
+
+  <ThingCategoryDef>
+    <defName>JA_CustomWoods</defName>
+    <label>custom woods</label>
+    <parent>ResourcesRaw</parent>
+  </ThingCategoryDef>
+
+
+</Defs>

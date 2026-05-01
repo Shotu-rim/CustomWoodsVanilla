@@ -1,0 +1,16 @@
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TerrainDef[defName="WoodPlankFloor"]</xpath>
+    <value>
+      <designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TerrainDef[defName="Bridge"]</xpath>
+    <value>
+      <designatorDropdown>JA_Bridges</designatorDropdown>
+    </value>
+  </Operation>
+
+</Patch>

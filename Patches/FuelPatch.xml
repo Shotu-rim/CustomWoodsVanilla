@@ -1,0 +1,95 @@
+<Patch>
+<!-- Adding custom wood as fuel-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>
+      /Defs/ThingDef[
+        comps/li[@Class="CompProperties_Refuelable"]
+        /fuelFilter/thingDefs/li[text()="WoodLog"]
+      ]
+      /comps/li[@Class="CompProperties_Refuelable"]
+      /fuelFilter/thingDefs
+    </xpath>
+    <value>
+      <li>JA_WoodOak</li>
+      <li>JA_WoodMaple</li>
+      <li>JA_WoodTeak</li>
+      <li>JA_WoodCypress</li>
+      <li>JA_WoodPine</li>
+      <li>JA_WoodBirch</li>
+      <li>JA_WoodPoplar</li>
+      <li>JA_WoodWillow</li>
+      <li>JA_WoodCocoa</li>
+      <li>JA_WoodPalm</li>
+      <li>JA_WoodBamboo</li>
+      <li>JA_WoodCecropia</li>
+      <li>JA_WoodAnima</li>
+      <li>JA_WoodGauranlen</li>
+      <li>JA_WoodPolux</li>
+      <li>JA_WoodHarbinger</li>
+      <li>JA_WoodArchean</li>
+      <li>JA_WoodSnagroot</li>
+      <li>JA_WoodBonsai</li>
+      <li>JA_WoodGrayPine</li>
+      <li>JA_WoodWitchwood</li>
+      <li>JA_WoodRatPalm</li>
+    </value>
+  </Operation>
+  
+ <!--Make chemfuel from custom wood-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Make_ChemfuelFromWood"]/ingredients/li/filter</xpath>
+	<value>
+			<li>JA_WoodOak</li>
+			<li>JA_WoodMaple</li>
+			<li>JA_WoodTeak</li>
+			<li>JA_WoodCypress</li>
+			<li>JA_WoodPine</li>
+			<li>JA_WoodBirch</li>
+			<li>JA_WoodPoplar</li>
+			<li>JA_WoodWillow</li>
+			<li>JA_WoodCocoa</li>
+			<li>JA_WoodPalm</li>
+			<li>JA_WoodBamboo</li>
+			<li>JA_WoodCecropia</li>
+			<li>JA_WoodAnima</li>
+			<li>JA_WoodGauranlen</li>
+			<li>JA_WoodPolux</li>
+			<li>JA_WoodHarbinger</li>
+			<li>JA_WoodArchean</li>
+			<li>JA_WoodSnagroot</li>
+			<li>JA_WoodBonsai</li>
+			<li>JA_WoodGrayPine</li>
+			<li>JA_WoodWitchwood</li>
+			<li>JA_WoodRatPalm</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Make_ChemfuelFromWood"]/fixedIngredientFilter</xpath>
+	<value>
+			<li>JA_WoodOak</li>
+			<li>JA_WoodMaple</li>
+			<li>JA_WoodTeak</li>
+			<li>JA_WoodCypress</li>
+			<li>JA_WoodPine</li>
+			<li>JA_WoodBirch</li>
+			<li>JA_WoodPoplar</li>
+			<li>JA_WoodWillow</li>
+			<li>JA_WoodCocoa</li>
+			<li>JA_WoodPalm</li>
+			<li>JA_WoodBamboo</li>
+			<li>JA_WoodCecropia</li>
+			<li>JA_WoodAnima</li>
+			<li>JA_WoodGauranlen</li>
+			<li>JA_WoodPolux</li>
+			<li>JA_WoodHarbinger</li>
+			<li>JA_WoodArchean</li>
+			<li>JA_WoodSnagroot</li>
+			<li>JA_WoodBonsai</li>
+			<li>JA_WoodGrayPine</li>
+			<li>JA_WoodWitchwood</li>
+			<li>JA_WoodRatPalm</li>
+	</value>
+</Operation>
+
+</Patch>

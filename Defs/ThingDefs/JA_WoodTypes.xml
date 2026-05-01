@@ -1,0 +1,1751 @@
+<Defs>
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodOak</defName>
+		<label>oak wood</label>
+		<description>Dense hardwood with excellent durability, commonly used in construction.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.62, 0.45, 0.28)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.44</Mass>
+			<MarketValue>1.22</MarketValue>
+			<Flammability>0.97</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.58</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.58</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.42</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>8.5</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>4.2</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.38</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.95</BluntDamageMultiplier>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<minRewardCount>10</minRewardCount>
+		<stuffProps>
+			<stuffAdjective>oak</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.62, 0.45, 0.28)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.75</MaxHitPoints>
+				<Beauty>1.05</Beauty>
+				<StuffPower_Insulation_Cold>1.05</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1.04</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+		
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodMaple</defName>
+		<label>maple wood</label>
+		<description>Strong hardwood valued for fine furniture and stability.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.76, 0.60, 0.40)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.42</Mass>
+			<MarketValue>1.11</MarketValue>
+			<Flammability>0.97</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.56</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.56</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.41</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>8.3</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.1</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.39</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.89</BluntDamageMultiplier>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<minRewardCount>10</minRewardCount>
+		<stuffProps>
+			<stuffAdjective>maple</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.76, 0.60, 0.40)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.70</MaxHitPoints>
+				<Beauty>1.1</Beauty>
+				<StuffPower_Insulation_Cold>1.04</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1.03</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodTeak</defName>
+		<label>teak wood</label>
+		<description>Extremely durable tropical hardwood resistant to decay and moisture.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.58, 0.40, 0.22)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.46</Mass>
+			<MarketValue>1.25</MarketValue>
+			<Flammability>0.98</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.62</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.62</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.45</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>7.8</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>3.8</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.36</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.96</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>teak</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.58, 0.40, 0.22)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.80</MaxHitPoints>
+				<Beauty>1.08</Beauty>
+				<StuffPower_Insulation_Cold>1.06</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1.07</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodCypress</defName>
+		<label>cypress wood</label>
+		<description>Resin-rich wood with good insulation properties.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.42, 0.35, 0.25)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.38</Mass>
+			<MarketValue>1.13</MarketValue>
+			<Flammability>0.97</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.57</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.57</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.41</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>8.4</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.0</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.39</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.89</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>cypress</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.42, 0.35, 0.25)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.60</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<StuffPower_Insulation_Cold>1.03</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1.06</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodPine</defName>
+		<label>pine wood</label>
+		<description>Common softwood, lightweight and widely used.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.70, 0.55, 0.35)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.34</Mass>
+			<MarketValue>1.1</MarketValue>
+			<Flammability>0.96</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.52</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.52</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.38</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>9.0</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.5</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.42</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.92</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>pine</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.70, 0.55, 0.35)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.55</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<StuffPower_Insulation_Cold>0.99</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>0.98</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodBirch</defName>
+		<label>birch wood</label>
+		<description>Light decorative wood with attractive appearance.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.88, 0.84, 0.72)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.36</Mass>
+			<MarketValue>1.12</MarketValue>
+			<Flammability>0.96</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.55</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>8.2</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.0</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.40</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.90</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>birch</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.88, 0.84, 0.72)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.65</MaxHitPoints>
+				<Beauty>1.1</Beauty>
+				<StuffPower_Insulation_Cold>0.99</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>0.99</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodPoplar</defName>
+		<label>poplar wood</label>
+		<description>Fast-growing softwood, weak but abundant.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.80, 0.75, 0.60)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.32</Mass>
+			<MarketValue>1.09</MarketValue>
+			<Flammability>0.95</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+	<StuffPower_Armor_Sharp>0.51</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.50</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.39</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>8.1</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.0</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.41</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.85</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>poplar</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.80, 0.75, 0.60)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.50</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<StuffPower_Insulation_Cold>0.98</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>0.97</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodWillow</defName>
+		<label>willow wood</label>
+		<description>Flexible wood with low structural strength.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.55, 0.50, 0.35)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.35</Mass>
+			<MarketValue>1.08</MarketValue>
+			<Flammability>0.95</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.51</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.51</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.37</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>9.2</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.6</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.43</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.82</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>willow</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.55, 0.50, 0.35)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.58</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<StuffPower_Insulation_Cold>0.98</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>0.96</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodCocoa</defName>
+		<label>cocoa wood</label>
+		<description>Tropical wood with moderate durability and warmth.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.40, 0.28, 0.18)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.48</Mass>
+			<MarketValue>1.25</MarketValue>
+			<Flammability>0.98</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>8.0</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.1</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.40</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.90</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>cocoa</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.40, 0.28, 0.18)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.78</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<StuffPower_Insulation_Cold>1.01</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1.02</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodPalm</defName>
+		<label>palm wood</label>
+		<description>Light tropical wood with moderate insulation.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.72, 0.62, 0.45)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.33</Mass>
+			<MarketValue>1.15</MarketValue>
+			<Flammability>0.95</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.50</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.50</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>7.5</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.8</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.44</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.94</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>palm</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.72, 0.62, 0.45)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.52</MaxHitPoints>
+				<Beauty>0.8</Beauty>
+				<StuffPower_Insulation_Cold>0.97</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1.01</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodBamboo</defName>
+		<label>bamboo</label>
+		<description>Light but brittle plant material.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.86, 0.90, 0.78)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.32</Mass>
+			<MarketValue>1.14</MarketValue>
+			<Flammability>0.94</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.48</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.48</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.34</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>7.2</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>5.0</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.46</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.96</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>bamboo</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.86, 0.90, 0.78)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.50</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<StuffPower_Insulation_Cold>0.95</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>0.96</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.25</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodCecropia</defName>
+		<label>cecropia wood</label>
+		<description>Soft tropical wood with low density.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.65, 0.58, 0.42)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.37</Mass>
+			<MarketValue>1.18</MarketValue>
+			<Flammability>0.96</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.43</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.43</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.41</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>8.1</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.0</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.40</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.81</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>cecropia</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.65, 0.58, 0.42)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.62</MaxHitPoints>
+				<Beauty>0.99</Beauty>
+				<StuffPower_Insulation_Cold>0.96</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodAnima</defName>
+		<label>anima wood</label>
+		<description>Rare spiritual wood. Cutting it has consequences.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.6,0.55,0.5)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<MarketValue>1.5</MarketValue>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.70</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.70</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.46</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>9.0</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.3</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.35</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.84</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>anima</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.6,0.55,0.5)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.9</MaxHitPoints>
+				<Beauty>3</Beauty>
+				<StuffPower_Insulation_Cold>1</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodGauranlen</defName>
+		<label>gauranlen wood</label>
+		<description>Living-feeling wood with warm organic tones.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.8,0.6,0.4)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<MarketValue>1.25</MarketValue>
+			<Flammability>0.99</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.60</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.60</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.44</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>8.6</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.2</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.37</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.87</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>gauranlen</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.8,0.6,0.4)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.8</MaxHitPoints>
+				<StuffPower_Insulation_Cold>1</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
+				<Beauty>1.4</Beauty>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodPolux</defName>
+		<label>polux wood</label>
+		<description>Heavy clay-like wood, strong but unattractive.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.5,0.3,0.2)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.6</Mass>
+			<MarketValue>1.3</MarketValue>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.69</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.69</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.47</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>9.2</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.4</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.34</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.83</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>polux</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.5,0.3,0.2)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.85</MaxHitPoints>
+				<Beauty>0.8</Beauty>
+				<Flammability>1</Flammability>
+				<StuffPower_Insulation_Cold>1</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodHarbinger</defName>
+		<label>harbinger wood</label>
+		<description>Dense mahogany-like wood of high durability, carrying a faint tint of lifeless decay.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.38, 0.38, 0.44)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<MarketValue>1.3</MarketValue>
+			<Flammability>0.99</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.58</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.58</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.42</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>8.3</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.1</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.39</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.89</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>harbinger</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.38, 0.38, 0.44)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.81</MaxHitPoints>
+				<Beauty>0.6</Beauty>
+				<Flammability>1</Flammability>
+				<StuffPower_Insulation_Cold>1</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodArchean</defName>
+		<label>archean wood</label>
+		<description>Ultra-rare ancient wood with exceptional strength and energy density.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.7,0.8,0.5)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<MarketValue>1.60</MarketValue>
+			<Flammability>0.96</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.69</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.69</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.52</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>10.0</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>5.0</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.30</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.78</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>archean</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.7,0.8,0.5)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.92</MaxHitPoints>
+				<Beauty>2</Beauty>
+				<Flammability>1</Flammability>
+				<StuffPower_Insulation_Cold>1</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodSnagroot</defName>
+		<label>snagroot wood</label>
+		<description>Brittle, low-quality wood with poor structural properties.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.2,0.18,0.17)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.3</Mass>
+			<MarketValue>1</MarketValue>
+			<Flammability>0.93</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.38</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.38</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.32</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>6.8</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>3.6</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.50</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.61</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>snagroot</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.2,0.18,0.17)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.45</MaxHitPoints>
+				<Beauty>0.6</Beauty>
+				<Flammability>1</Flammability>
+				<StuffPower_Insulation_Cold>1</StuffPower_Insulation_Cold>				
+				<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodWitchwood</defName>
+		<label>witchwood</label>
+		<description>Strange, dark wood with unstable structure and poor quality.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.35,0.25,0.2)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<MarketValue>1.2</MarketValue>
+			<Flammability>1.1</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.66</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.66</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.48</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>9.5</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.6</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.33</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.82</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>witchwood</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.35,0.25,0.2)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.6</MaxHitPoints>
+				<Beauty>0.5</Beauty>
+				<StuffPower_Insulation_Cold>0.95</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>0.95</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodRatPalm</defName>
+		<label>rat palm wood</label>
+		<description>Strange palm wood that burns exceptionally well but is aesthetically unremarkable.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.68, 0.58, 0.42)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.31</Mass>
+			<MarketValue>1.11</MarketValue>
+			<Flammability>0.95</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.49</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.49</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.35</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>7.6</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.7</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.45</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.95</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>rat palm</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.68, 0.58, 0.42)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.5</MaxHitPoints>
+				<Beauty>0.8</Beauty>
+				<Flammability>1</Flammability>
+				<StuffPower_Insulation_Cold>1</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodGrayPine</defName>
+		<label>gray pine wood</label>
+		<description>Hardy but dull-looking variant of pine wood.</description>
+		<graphicData>
+			<texPath>Things/Resource/WoodLogs/GrayPine</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.35</Mass>
+			<MarketValue>1.12</MarketValue>
+			<Flammability>0.96</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.53</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.53</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.39</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>8.7</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.2</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.41</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.91</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>gray pine</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.52, 0.48, 0.44)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.6</MaxHitPoints>
+				<Beauty>0.95</Beauty>
+				<StuffPower_Insulation_Cold>0.99</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>0.98</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>JA_WoodBonsai</defName>
+		<label>bonsai wood</label>
+		<description>Dense ornamental wood prized for its beauty rather than strength.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.4,0.3,0.2)</color>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<thingCategories>
+			<li>JA_CustomWoods</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<MarketValue>1.13</MarketValue>
+			<Flammability>0.96</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.50</StuffPower_Armor_Sharp>
+<StuffPower_Armor_Blunt>0.50</StuffPower_Armor_Blunt>
+<StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
+<StuffPower_Insulation_Cold>7.4</StuffPower_Insulation_Cold>
+<StuffPower_Insulation_Heat>4.5</StuffPower_Insulation_Heat>
+<SharpDamageMultiplier>0.44</SharpDamageMultiplier>
+<BluntDamageMultiplier>0.94</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>bonsai</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>1.00</commonality>
+			<color>(0.4,0.3,0.2)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.7</MaxHitPoints>
+				<Beauty>1.3</Beauty>
+				<StuffPower_Insulation_Cold>1.0</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>1.0</StuffPower_Insulation_Heat>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+</Defs>

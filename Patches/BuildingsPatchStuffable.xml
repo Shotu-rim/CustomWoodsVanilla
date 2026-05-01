@@ -1,0 +1,355 @@
+<Patch>
+<!--Patch for Brewery-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Brewery"]</xpath>
+    <value>
+      <costStuffCount>120</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+  
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Brewery"]/costList/WoodLog</xpath>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Brewery"]/constructEffect</xpath>
+  </Operation>
+<!--Patch for Campfire-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Campfire"]</xpath>
+    <value>
+      <costStuffCount>20</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Campfire"]/costList/WoodLog</xpath>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Campfire"]/constructEffect</xpath>
+  </Operation>
+
+<!--Patch for PassiveCooler-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="PassiveCooler"]</xpath>
+    <value>
+      <costStuffCount>50</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="PassiveCooler"]/costList/WoodLog</xpath>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="PassiveCooler"]/constructEffect</xpath>
+  </Operation>
+  
+<!--Patch for FermentingBarrel-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="FermentingBarrel"]</xpath>
+    <value>
+      <costStuffCount>30</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="FermentingBarrel"]/costList/WoodLog</xpath>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="FermentingBarrel"]/constructEffect</xpath>
+  </Operation>
+  
+<!--Patch for WatermillGenerator-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="WatermillGenerator"]</xpath>
+    <value>
+      <costStuffCount>280</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="WatermillGenerator"]/costList/WoodLog</xpath>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="WatermillGenerator"]/constructEffect</xpath>
+  </Operation>
+  
+<!--Patch for TorchLamp-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TorchLamp"]</xpath>
+    <value>
+	<costList Inherit="False"></costList>
+      <costStuffCount>20</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="TorchLamp"]</xpath>
+    <value>
+      <constructEffect></constructEffect>
+    </value>
+  </Operation>
+  
+<!--Patch for TorchWallLamp-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TorchWallLamp"]</xpath>
+    <value>
+	 <costList Inherit="False"></costList>
+      <costStuffCount>15</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+  
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="TorchWallLamp"]/costList/WoodLog</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="TorchWallLamp"]</xpath>
+    <value>
+      <constructEffect></constructEffect>
+    </value>
+  </Operation>
+  
+<!--Patch for Darktorch-->
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName="Darktorch"]</xpath>
+  <value>
+    <costList Inherit="False"></costList>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+  </value>
+</Operation>
+
+   <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Darktorch"]</xpath>
+    <value>
+      <constructEffect></constructEffect>
+    </value>
+  </Operation>
+  
+  <!--Patch for Fungus Torch!-->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DarktorchFungus"]</xpath>
+    <value>
+      <costStuffCount>0</costStuffCount>
+      <stuffCategories Inherit="false" />
+    </value>
+  </Operation>
+
+
+
+<!--Patch for XMassTree-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="ChristmasTree"]</xpath>
+    <value>
+      <costStuffCount>70</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="ChristmasTree"]/costList/WoodLog</xpath>
+  </Operation>
+
+  
+<!--Patch for Effigy-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Effigy"]</xpath>
+    <value>
+      <costStuffCount>80</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Effigy"]/costList/WoodLog</xpath>
+  </Operation>
+
+  
+<!--Patch for SacrificialFlag-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="SacrificialFlag"]</xpath>
+    <value>
+      <costStuffCount>40</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="SacrificialFlag"]/costList/WoodLog</xpath>
+  </Operation>
+
+  
+<!--Patch for Pyre-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Pyre"]</xpath>
+    <value>
+      <costStuffCount>100</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Pyre"]/costList/WoodLog</xpath>
+  </Operation>
+
+  
+<!--Patch for Burnbong-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Burnbong"]</xpath>
+    <value>
+      <costStuffCount>30</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Burnbong"]/costList/WoodLog</xpath>
+  </Operation>
+
+  
+  
+<!--Patch for IncenseShrine-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="IncenseShrine"]</xpath>
+    <value>
+      <costStuffCount>100</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="IncenseShrine"]/costList/WoodLog</xpath>
+  </Operation>
+  
+  <!--Patch for Drum-->
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Drum"]/costList</xpath>
+  </Operation>
+
+ <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Drum"]/costStuffCount</xpath>
+	<value>
+	<costStuffCount>50</costStuffCount>
+	</value>
+  </Operation>
+  
+    <!--Patch for Drape-->
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Drape"]/costList</xpath>
+  </Operation>
+
+ <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Drape"]/costStuffCount</xpath>
+	<value>
+	<costStuffCount>50</costStuffCount>
+	</value>
+  </Operation>
+  
+ <!--Patch for Harp-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Harp"]</xpath>
+    <value>
+      <costStuffCount>150</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Harp"]/costList/WoodLog</xpath>
+  </Operation>
+
+
+  
+<!--Patch for Harpsichord-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Harpsichord"]</xpath>
+    <value>
+      <costStuffCount>250</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Harpsichord"]/costList/WoodLog</xpath>
+  </Operation>
+
+
+  
+<!--Patch for Piano-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Piano"]</xpath>
+    <value>
+      <costStuffCount>220</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Piano"]/costList/WoodLog</xpath>
+  </Operation>
+
+<!--Patch for Short Bow bill-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Bow_Short"]</xpath>
+    <value>
+      <costStuffCount>30</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+     <xpath>Defs/ThingDef[defName="Bow_Short"]/costList/WoodLog</xpath>
+ </Operation>
+  
+</Patch>

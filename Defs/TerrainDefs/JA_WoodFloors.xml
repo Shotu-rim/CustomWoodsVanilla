@@ -1,0 +1,513 @@
+<Defs>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodOakFloor</defName>
+		<label>oak wood floor</label>
+		<description>Floor made from durable oak wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.45,0.32,0.18)</color>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+
+		<costList>
+			<JA_WoodOak>3</JA_WoodOak>
+		</costList>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodOak</requiredWood>
+		</li>
+	</modExtensions>
+		<constructEffect>ConstructWood</constructEffect>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodMapleFloor</defName>
+		<label>maple wood floor</label>
+		<description>Floor made from smooth maple wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.55,0.36,0.22)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodMaple>3</JA_WoodMaple>
+		</costList>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodMaple</requiredWood>
+		</li>
+	</modExtensions>
+		<constructEffect>ConstructWood</constructEffect>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodTeakFloor</defName>
+		<label>teak wood floor</label>
+		<description>Floor made from tropical teak wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.38,0.25,0.15)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodTeak>3</JA_WoodTeak>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodTeak</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodCypressFloor</defName>
+		<label>cypress wood floor</label>
+		<description>Floor made from resilient cypress wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.42,0.3,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodCypress>3</JA_WoodCypress>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodCypress</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodPineFloor</defName>
+		<label>pine wood floor</label>
+		<description>Floor made from light pine wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.52,0.4,0.25)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodPine>3</JA_WoodPine>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodPine</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodBirchFloor</defName>
+		<label>birch wood floor</label>
+		<description>Floor made from pale birch wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.8,0.75,0.6)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodBirch>3</JA_WoodBirch>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodBirch</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodPoplarFloor</defName>
+		<label>poplar wood floor</label>
+		<description>Floor made from soft poplar wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.62,0.52,0.35)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodPoplar>3</JA_WoodPoplar>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodPoplar</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodWillowFloor</defName>
+		<label>willow wood floor</label>
+		<description>Floor made from flexible willow wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.5,0.42,0.3)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodWillow>3</JA_WoodWillow>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodWillow</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodCocoaFloor</defName>
+		<label>cocoa wood floor</label>
+		<description>Floor made from dark cocoa wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.42,0.26,0.16)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodCocoa>3</JA_WoodCocoa>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodCocoa</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodPalmFloor</defName>
+		<label>palm wood floor</label>
+		<description>Floor made from light palm wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.55,0.45,0.3)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodPalm>3</JA_WoodPalm>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodPalm</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodBambooFloor</defName>
+		<label>bamboo floor</label>
+		<description>Floor made from lightweight bamboo.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.7,0.7,0.5)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodBamboo>3</JA_WoodBamboo>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodBamboo</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodCecropiaFloor</defName>
+		<label>cecropia wood floor</label>
+		<description>Floor made from fibrous cecropia wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.5,0.5,0.4)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodCecropia>3</JA_WoodCecropia>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodCecropia</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodAnimaFloor</defName>
+		<label>anima wood floor</label>
+		<description>Floor made from mystical anima wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.6,0.55,0.5)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodAnima>3</JA_WoodAnima>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodAnima</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodGauranlenFloor</defName>
+		<label>gaurlanlen wood floor</label>
+		<description>Floor made from living gauranlen wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.8,0.6,0.4)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodGauranlen>3</JA_WoodGauranlen>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodGauranlen</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodPoluxFloor</defName>
+		<label>polux wood floor</label>
+		<description>Floor made from exotic polux wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.5,0.3,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodPolux>3</JA_WoodPolux>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodPolux</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodHarbingerFloor</defName>
+		<label>harbinger wood floor</label>
+		<description>Floor made from eerie harbinger wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.38,0.38,0.44)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodHarbinger>3</JA_WoodHarbinger>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodHarbinger</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodArcheanFloor</defName>
+		<label>archean wood floor</label>
+		<description>Floor made from ancient archean wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.7,0.8,0.5)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodArchean>3</JA_WoodArchean>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodArchean</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodSnagrootFloor</defName>
+		<label>snagroot wood floor</label>
+		<description>Floor made from dark snagroot wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.2,0.18,0.17)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodSnagroot>3</JA_WoodSnagroot>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodSnagroot</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodWitchwoodFloor</defName>
+		<label>witchwood floor</label>
+		<description>Floor made from twisted witchwood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.35,0.25,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodWitchwood>3</JA_WoodWitchwood>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodWitchwood</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodRatPalmFloor</defName>
+		<label>rat palm wood floor</label>
+		<description>Floor made from coarse rat palm wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.55,0.45,0.35)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodRatPalm>3</JA_WoodRatPalm>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodRatPalm</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodGrayPineFloor</defName>
+		<label>gray pine wood floor</label>
+		<description>Floor made from dull gray pine wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.451, 0.392, 0.314)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodGrayPine>3</JA_WoodGrayPine>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodGrayPine</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+	<TerrainDef ParentName="FloorBase">
+		<defName>JA_WoodBonsaiFloor</defName>
+		<label>bonsai wood floor</label>
+		<description>Floor made from compact bonsai wood.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<color>(0.4,0.3,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Floor_WoodTypes</designatorDropdown>
+		<costList>
+			<JA_WoodBonsai>3</JA_WoodBonsai>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodBonsai</requiredWood>
+		</li>
+	</modExtensions>
+	</TerrainDef>
+
+
+</Defs>

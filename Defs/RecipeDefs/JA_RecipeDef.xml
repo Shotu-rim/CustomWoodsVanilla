@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+    <defName>JA_ChoppingCustomWood</defName>
+    <label>Chopping wood</label>
+    <jobString>Chopping wood into wood logs</jobString>
+    <description>Make your wood a standard, non-nonchalant, mundane wood resource. Because apparently colorful wood are *too fancy*.</description>
+    <workAmount>750</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Harvest_Tree</effectWorking>
+    <soundWorking>Harvest_Tree</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableStonecutter</li>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+			<categories>
+				<li>JA_CustomWoods</li>
+			</categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+        <categories>
+			<li>JA_CustomWoods</li>
+		</categories>
+    </fixedIngredientFilter>
+    <products>
+      <WoodLog>1</WoodLog>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+  </RecipeDef>
+</Defs>

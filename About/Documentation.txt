@@ -1,0 +1,24 @@
+Hi,
+If you're reading this, most likely you want to use this mod for your own purpose or want to make sure this mod will include your custom stuff as well.
+You're in a good place, here's how this mod works.
+
+1. Recipe "Chopping wood"
+If you want your wood to be added into the recipe, you'll have to either add a <thingCategorie>JA_CustomWoods</thingCategories> to your wood or patch ingredients of a recipe.
+
+2. UI filter
+This one is divided by three different mechanisms, category and dropdownDesignators. 
+- As long as your wood is <stuffProps><categories>Woody, it'll be filtered-out. Easy as that. But what about floors and bridges?
+- This is tricky, because you'll have to create a "wood floor" / "bridge" def and your custom thing MUST HAVE (!!!) <designatorDropdown>JA_Floor_WoodTypes (for floors) and/or JA_Bridges (for bridges). Otherwise it won't work. The best practice is to use PatchOperationAdd for your defs.
+- But you probably have seen that stone tiles are also filtered-out. Yes, this mod also does that, so as long as your "floor" tile belong to any of the 
+
+3. Wood as a fuel
+If you want your custom wood to be a fuel for building, just create a patch for your mod and copy-paste my "FuelPatch" file and rename the file. Inside, remove my woods and add your def name.
+
+4. Tradeable wood
+You want your wood to be sold by traders? Copy-paste my "WoodTrader" file and rename it. Inside just use one of the mentioned "Bulk" / "Exotic" traders, remove my wood and add yours. Simple.
+
+5. Harvest custom wood
+If you want to make Cactus to drop a custom wood (CACTUS IS NOT A TREE!!!), copy "WoodHarvestPatches", rename it like "CactusIsATree" (yuck!) and add PatchOperationAdd based on what I did. Remember that even though Cactus exists in the Vanilla game, it does not have a custom wood dropped. You'll have to create it yourself.
+When it comes to your own custom wood, most likely inside def you're gonna add <harvestThingDef>, but if not, use PatchOperationAdd.
+
+And thanks all. Hope you like this description. Have fun modding!

@@ -1,0 +1,155 @@
+<Patch>
+
+
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[contains(defName,"Bulk")]/stockGenerators</xpath>
+    <value>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodOak</thingDef>
+ 
+        <countRange><min>40</min><max>120</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodMaple</thingDef>
+   
+        <countRange><min>30</min><max>90</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodBirch</thingDef>
+
+        <countRange><min>50</min><max>120</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodCypress</thingDef>
+
+        <countRange><min>30</min><max>100</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodPine</thingDef>
+
+        <countRange><min>100</min><max>260</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodGrayPine</thingDef>
+
+        <countRange><min>90</min><max>240</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodRatPalm</thingDef>
+
+        <countRange><min>100</min><max>260</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodPoplar</thingDef>
+
+        <countRange><min>120</min><max>300</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodWillow</thingDef>
+ 
+        <countRange><min>90</min><max>220</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodBamboo</thingDef>
+
+        <countRange><min>100</min><max>200</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodPalm</thingDef>
+ 
+        <countRange><min>80</min><max>180</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodCocoa</thingDef>
+      
+        <countRange><min>70</min><max>160</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodCecropia</thingDef>
+    
+        <countRange><min>80</min><max>180</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodTeak</thingDef>
+  
+        <countRange><min>25</min><max>80</max></countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>
+      /Defs/TraderKindDef[contains(defName,"Exotic")]/stockGenerators
+    </xpath>
+
+    <value>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodAnima</thingDef>
+ 
+        <countRange><min>3</min><max>10</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodArchean</thingDef>
+ 
+        <countRange><min>3</min><max>10</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodHarbinger</thingDef>
+    
+        <countRange><min>20</min><max>50</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodGauranlen</thingDef>
+
+        <countRange><min>10</min><max>30</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodPolux</thingDef>
+    
+        <countRange><min>15</min><max>50</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodSnagroot</thingDef>
+
+        <countRange><min>25</min><max>80</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodWitchwood</thingDef>
+   
+        <countRange><min>15</min><max>60</max></countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>JA_WoodBonsai</thingDef>
+
+        <countRange><min>20</min><max>40</max></countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+</Patch>

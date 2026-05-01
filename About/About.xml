@@ -1,0 +1,54 @@
+<ModMetaData>
+  <name>Custom Woods - Vanilla</name>
+  <author>Shotu</author>
+  <packageId>shotu.customwoodsvanilla</packageId>
+
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+
+<modDependencies>
+	<li>
+		<packageId>ludeon.rimworld.royalty</packageId>
+		<displayName>Royalty DLC</displayName>
+    </li>
+    <li>
+		<packageId>ludeon.rimworld.ideology</packageId>
+		<displayName>Ideology DLC</displayName>
+    </li>
+    <li>
+		<packageId>ludeon.rimworld.biotech</packageId>
+		<displayName>Biotech DLC</displayName>
+    </li>
+    <li>
+		<packageId>ludeon.rimworld.anomaly</packageId>
+		<displayName>Anomaly DLC</displayName>
+    </li>
+	<li>
+		<packageId>brrainz.harmony</packageId>
+		<displayName>Harmony</displayName>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+	</li>
+</modDependencies>
+
+<description>
+
+
+This mod adds 22 new vanilla-based wood types (eg. Oak, Maple, Teak, Poplar etc.), each with different stats and color. Just harvest them from a corresponding vanilla tree (no, not you Cactus, you're not considered as a tree). With these new wood you can craft weapons, building, floors, bridges and more!
+
+These wood will be used as a fuel for campfire, torches and other stuff.
+
+Also this mod adds a small "flavor" to the game, that is a UI filtering list for floors, bridges and other wooden stuff. Also this filter works for most of the stony floors. No longer the game will show you that you can build a Marble floor while there's no marble around.
+
+I've added a recipe which converts 2 custom wood into a vanilla Wood log. There is at least one thing you're gonna need it:
+
+- Skylantern Festival
+
+There are traders who have these new types of wood as well.
+
+If you find any bugs, please report them via Steam.
+
+
+</description>
+</ModMetaData>

@@ -1,0 +1,13 @@
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+    <defName>JA_Floor_WoodTypes</defName>
+    <label>wood floors</label>
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>JA_Bridges</defName>
+    <label>bridges</label>
+  </DesignatorDropdownGroupDef>
+
+</Defs>

@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodOakBridge</defName>
+		<label>oak wood bridge</label>
+		<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.45,0.32,0.18)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodOak>12</JA_WoodOak>
+		</costList>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodOak</requiredWood>
+		</li>
+	</modExtensions>
+		 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodMapleBridge</defName>
+		<label>maple wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.55,0.36,0.22)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodMaple>12</JA_WoodMaple>
+		</costList>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodMaple</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+		<constructEffect>ConstructWood</constructEffect>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodTeakBridge</defName>
+		<label>teak wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.38,0.25,0.15)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodTeak>12</JA_WoodTeak>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodTeak</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodCypressBridge</defName>
+		<label>cypress wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.42,0.3,0.2)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodCypress>12</JA_WoodCypress>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodCypress</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodPineBridge</defName>
+		<label>pine wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.52,0.4,0.25)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodPine>12</JA_WoodPine>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodPine</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodBirchBridge</defName>
+		<label>birch wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.8,0.75,0.6)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodBirch>12</JA_WoodBirch>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodBirch</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodPoplarBridge</defName>
+		<label>poplar wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.62,0.52,0.35)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodPoplar>12</JA_WoodPoplar>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodPoplar</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodWillowBridge</defName>
+		<label>willow wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.5,0.42,0.3)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodWillow>12</JA_WoodWillow>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodWillow</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodCocoaBridge</defName>
+		<label>cocoa wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.42,0.26,0.16)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodCocoa>12</JA_WoodCocoa>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodCocoa</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodPalmBridge</defName>
+		<label>palm wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.55,0.45,0.3)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodPalm>12</JA_WoodPalm>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodPalm</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodBambooBridge</defName>
+		<label>bamboo floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.7,0.7,0.5)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodBamboo>12</JA_WoodBamboo>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodBamboo</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodCecropiaBridge</defName>
+		<label>cecropia wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.5,0.5,0.4)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodCecropia>12</JA_WoodCecropia>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodCecropia</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodAnimaBridge</defName>
+		<label>anima wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.6,0.55,0.5)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodAnima>12</JA_WoodAnima>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodAnima</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodGauranlenBridge</defName>
+		<label>gaurlanlen wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.8,0.6,0.4)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodGauranlen>12</JA_WoodGauranlen>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodGauranlen</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodPoluxBridge</defName>
+		<label>polux wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.5,0.3,0.2)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodPolux>12</JA_WoodPolux>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodPolux</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodHarbingerBridge</defName>
+		<label>harbinger wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.38,0.38,0.44)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodHarbinger>12</JA_WoodHarbinger>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodHarbinger</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodArcheanBridge</defName>
+		<label>archean wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.7,0.8,0.5)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodArchean>12</JA_WoodArchean>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodArchean</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodSnagrootBridge</defName>
+		<label>snagroot wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.2,0.18,0.17)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodSnagroot>12</JA_WoodSnagroot>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodSnagroot</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodWitchwoodBridge</defName>
+		<label>witchwood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.35,0.25,0.2)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodWitchwood>12</JA_WoodWitchwood>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodWitchwood</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodRatPalmBridge</defName>
+		<label>rat palm wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.55,0.45,0.35)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodRatPalm>12</JA_WoodRatPalm>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodRatPalm</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodGrayPineBridge</defName>
+		<label>gray pine wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.451, 0.392, 0.314)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodGrayPine>12</JA_WoodGrayPine>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodGrayPine</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+	<TerrainDef ParentName="BridgeBase">
+		<defName>JA_WoodBonsaiBridge</defName>
+		<label>bonsai wood floor</label>
+<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+    <spaceBridgePropsPath>Terrain/Misc/BridgeSpaceProps</spaceBridgePropsPath>
+		<color>(0.4,0.3,0.2)</color>
+		<uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>
+		<affordances>
+      <li>Light</li>
+    </affordances>
+			<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+		</statBases>
+		<designatorDropdown>JA_Bridges</designatorDropdown>
+		<costList>
+			<JA_WoodBonsai>12</JA_WoodBonsai>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<modExtensions>
+		<li Class="WoodFilterList.WoodRequirementExtension">
+			<requiredWood>JA_WoodBonsai</requiredWood>
+		</li>
+	</modExtensions>
+	 <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+	</TerrainDef>
+</Defs>
