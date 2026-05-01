@@ -39,6 +39,7 @@
 <Operation Class="PatchOperationAdd">
     <xpath>Defs/RecipeDef[defName="Make_ChemfuelFromWood"]/ingredients/li/filter</xpath>
 	<value>
+		<thingDefs>
 			<li>JA_WoodOak</li>
 			<li>JA_WoodMaple</li>
 			<li>JA_WoodTeak</li>
@@ -61,12 +62,14 @@
 			<li>JA_WoodGrayPine</li>
 			<li>JA_WoodWitchwood</li>
 			<li>JA_WoodRatPalm</li>
+		</thingDefs>
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationAdd">
     <xpath>Defs/RecipeDef[defName="Make_ChemfuelFromWood"]/fixedIngredientFilter</xpath>
 	<value>
+		<thingDefs>
 			<li>JA_WoodOak</li>
 			<li>JA_WoodMaple</li>
 			<li>JA_WoodTeak</li>
@@ -89,6 +92,7 @@
 			<li>JA_WoodGrayPine</li>
 			<li>JA_WoodWitchwood</li>
 			<li>JA_WoodRatPalm</li>
+		</thingDefs>
 	</value>
 </Operation>
 
