@@ -1,10 +1,10 @@
 ![Preview](Images/Preview.PNG)
 
-Custom Woods - Vanilla
+<h1>Custom Woods - Vanilla</h1>
 
 Adds 22 new types of wood to RimWorld, complete with unique stats, colors, and a massive quality-of-life UI update for your architect menu. 
 ![Floors](Images/Floors.PNG)
-Features 
+<h2>Features</h2>
 
  - 22 New Wood Types: Harvest Oak, Maple, Teak, Poplar, and many more directly from their corresponding vanilla trees. (Sorry, Cactus, you're still not a tree).
  
@@ -22,7 +22,7 @@ Features
 
 ![List of bridges](Images/Bridges_list.PNG)
 
-Quality of Life: UI Filtering 
+<h2>Quality of Life: UI Filtering</h2>
 
 This mod adds a "flavor" to the game: 
 
@@ -32,7 +32,7 @@ This mod adds a "flavor" to the game:
 
 ![Filtered stone list](Images/Stone_filter.PNG)
 
-Compatibility 
+<h2>Compatibility</h2>
 
 - Should be compatible with most mods.
 - This mod adds new things but does not overwrite core vanilla files (XML patching).
@@ -40,13 +40,13 @@ Compatibility
 	 
 !!! Known incompatibility - Biomes! Framework - since this mod creates wooden structures with custom wood, they will be available on the map, but only if Biomes! Framework is not installed. Everything else should work properly.
 	 
-PLEASE NOTE!
-	 These custom woods are not biome-restricted so don't be shocked when you'll see an oaken structure deep in the jungle or cocoa structure on tundra. That's on my ToDo list.
+<h1>PLEASE NOTE!</h1>
+	 These custom woods are not biome-restricted so don't be shocked when you'll see an oaken structure deep in the jungle or cocoa structure on tundra.
      
-Bug Reports & Feedback 
+<h2>Bug Reports & Feedback</h2>
 Found a weird stat, or a bug with the UI filtering? Please let me know in the Steam Workshop comments section or open an issue on the GitHub repository!  
 
-Credits 
+<h2>Credits</h2>
 
 *  Shotu - Modding
 *  Tynan - For creating RimWorld.

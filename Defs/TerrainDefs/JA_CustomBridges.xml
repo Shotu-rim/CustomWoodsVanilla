@@ -33,7 +33,7 @@
 	
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodMapleBridge</defName>
-		<label>maple wood floor</label>
+		<label>maple wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -63,7 +63,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodTeakBridge</defName>
-		<label>teak wood floor</label>
+		<label>teak wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -93,7 +93,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodCypressBridge</defName>
-		<label>cypress wood floor</label>
+		<label>cypress wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -123,7 +123,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodPineBridge</defName>
-		<label>pine wood floor</label>
+		<label>pine wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -153,7 +153,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodBirchBridge</defName>
-		<label>birch wood floor</label>
+		<label>birch wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -183,7 +183,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodPoplarBridge</defName>
-		<label>poplar wood floor</label>
+		<label>poplar wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -213,7 +213,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodWillowBridge</defName>
-		<label>willow wood floor</label>
+		<label>willow wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -243,7 +243,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodCocoaBridge</defName>
-		<label>cocoa wood floor</label>
+		<label>cocoa wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -273,7 +273,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodPalmBridge</defName>
-		<label>palm wood floor</label>
+		<label>palm wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -333,7 +333,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodCecropiaBridge</defName>
-		<label>cecropia wood floor</label>
+		<label>cecropia wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -363,7 +363,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodAnimaBridge</defName>
-		<label>anima wood floor</label>
+		<label>anima wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -393,7 +393,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodGauranlenBridge</defName>
-		<label>gaurlanlen wood floor</label>
+		<label>gaurlanlen wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -423,7 +423,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodPoluxBridge</defName>
-		<label>polux wood floor</label>
+		<label>polux wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -453,7 +453,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodHarbingerBridge</defName>
-		<label>harbinger wood floor</label>
+		<label>harbinger wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -483,7 +483,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodArcheanBridge</defName>
-		<label>archean wood floor</label>
+		<label>archean wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -513,7 +513,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodSnagrootBridge</defName>
-		<label>snagroot wood floor</label>
+		<label>snagroot wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -543,7 +543,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodWitchwoodBridge</defName>
-		<label>witchwood floor</label>
+		<label>witchwood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -573,7 +573,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodRatPalmBridge</defName>
-		<label>rat palm wood floor</label>
+		<label>rat palm wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -603,7 +603,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodGrayPineBridge</defName>
-		<label>gray pine wood floor</label>
+		<label>gray pine wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
@@ -633,7 +633,7 @@
 	</TerrainDef>
 	<TerrainDef ParentName="BridgeBase">
 		<defName>JA_WoodBonsaiBridge</defName>
-		<label>bonsai wood floor</label>
+		<label>bonsai wood bridge</label>
 <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>

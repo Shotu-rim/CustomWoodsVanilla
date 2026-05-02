@@ -963,9 +963,9 @@
 		<label>anima wood</label>
 		<description>Rare spiritual wood. Cutting it has consequences.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<texPath>Things/Resource/WoodLogs/GrayPine</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(0.6,0.55,0.5)</color>
+			<color>(0.80, 1.0, 0.85)</color>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
 		<soundInteract>Wood_Drop</soundInteract>
@@ -996,7 +996,7 @@
 				<li>Woody</li>
 			</categories>
 			<commonality>1.00</commonality>
-			<color>(0.6,0.55,0.5)</color>
+			<color>(0.80, 0.94, 0.85)</color>
 			<constructEffect>ConstructWood</constructEffect>
 			<appearance>Planks</appearance>
 			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
