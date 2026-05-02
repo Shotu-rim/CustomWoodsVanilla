@@ -6,7 +6,7 @@
 		<description>Floor made from durable oak wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
 		<color>(0.45,0.32,0.18)</color>
-		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -30,7 +30,7 @@
 		<label>maple wood floor</label>
 		<description>Floor made from smooth maple wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.55,0.36,0.22)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.55,0.36,0.22)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -53,7 +53,7 @@
 		<label>teak wood floor</label>
 		<description>Floor made from tropical teak wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.38,0.25,0.15)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.38,0.25,0.15)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -76,7 +76,7 @@
 		<label>cypress wood floor</label>
 		<description>Floor made from resilient cypress wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.42,0.3,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.42,0.3,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -99,7 +99,7 @@
 		<label>pine wood floor</label>
 		<description>Floor made from light pine wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.52,0.4,0.25)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.52,0.4,0.25)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -122,7 +122,7 @@
 		<label>birch wood floor</label>
 		<description>Floor made from pale birch wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.8,0.75,0.6)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.8,0.75,0.6)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -145,7 +145,7 @@
 		<label>poplar wood floor</label>
 		<description>Floor made from soft poplar wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.62,0.52,0.35)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.62,0.52,0.35)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -168,7 +168,7 @@
 		<label>willow wood floor</label>
 		<description>Floor made from flexible willow wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.5,0.42,0.3)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.5,0.42,0.3)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -191,7 +191,7 @@
 		<label>cocoa wood floor</label>
 		<description>Floor made from dark cocoa wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.42,0.26,0.16)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.42,0.26,0.16)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -214,7 +214,7 @@
 		<label>palm wood floor</label>
 		<description>Floor made from light palm wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.55,0.45,0.3)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.55,0.45,0.3)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -237,7 +237,7 @@
 		<label>bamboo floor</label>
 		<description>Floor made from lightweight bamboo.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.7,0.7,0.5)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.7,0.7,0.5)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -260,7 +260,7 @@
 		<label>cecropia wood floor</label>
 		<description>Floor made from fibrous cecropia wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.5,0.5,0.4)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.5,0.5,0.4)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -283,7 +283,7 @@
 		<label>anima wood floor</label>
 		<description>Floor made from mystical anima wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.6,0.55,0.5)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.6,0.55,0.5)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -306,7 +306,7 @@
 		<label>gaurlanlen wood floor</label>
 		<description>Floor made from living gauranlen wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.8,0.6,0.4)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.8,0.6,0.4)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -329,7 +329,7 @@
 		<label>polux wood floor</label>
 		<description>Floor made from exotic polux wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.5,0.3,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.5,0.3,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -352,7 +352,7 @@
 		<label>harbinger wood floor</label>
 		<description>Floor made from eerie harbinger wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.38,0.38,0.44)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.38,0.38,0.44)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -375,7 +375,7 @@
 		<label>archean wood floor</label>
 		<description>Floor made from ancient archean wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.7,0.8,0.5)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.7,0.8,0.5)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -398,7 +398,7 @@
 		<label>snagroot wood floor</label>
 		<description>Floor made from dark snagroot wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.2,0.18,0.17)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.2,0.18,0.17)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -421,7 +421,7 @@
 		<label>witchwood floor</label>
 		<description>Floor made from twisted witchwood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.35,0.25,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.35,0.25,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -444,7 +444,7 @@
 		<label>rat palm wood floor</label>
 		<description>Floor made from coarse rat palm wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.55,0.45,0.35)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.55,0.45,0.35)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -467,7 +467,7 @@
 		<label>gray pine wood floor</label>
 		<description>Floor made from dull gray pine wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.451, 0.392, 0.314)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.451, 0.392, 0.314)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -490,7 +490,7 @@
 		<label>bonsai wood floor</label>
 		<description>Floor made from compact bonsai wood.</description>
 		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
-		<color>(0.4,0.3,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
+		<color>(0.4,0.3,0.2)</color><pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType> <pollutionOverlayTexturePath MayRequire="Ludeon.RimWorld.Biotech">Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> <isPaintable>true</isPaintable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<Cleanliness>0</Cleanliness>
