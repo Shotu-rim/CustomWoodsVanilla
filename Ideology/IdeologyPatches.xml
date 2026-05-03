@@ -1,0 +1,136 @@
+<Patch>
+  
+
+
+<!--Patch for XMassTree-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="ChristmasTree"]</xpath>
+    <value>
+      <costStuffCount>70</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="ChristmasTree"]/costList/WoodLog</xpath>
+  </Operation>
+
+  
+<!--Patch for Effigy-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Effigy"]</xpath>
+    <value>
+      <costStuffCount>80</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Effigy"]/costList/WoodLog</xpath>
+  </Operation>
+
+  
+<!--Patch for SacrificialFlag-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="SacrificialFlag"]</xpath>
+    <value>
+      <costStuffCount>40</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="SacrificialFlag"]/costList/WoodLog</xpath>
+  </Operation>
+
+  
+<!--Patch for Pyre-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Pyre"]</xpath>
+    <value>
+      <costStuffCount>100</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Pyre"]/costList/WoodLog</xpath>
+  </Operation>
+
+  
+<!--Patch for Burnbong-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Burnbong"]</xpath>
+    <value>
+      <costStuffCount>30</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Burnbong"]/costList/WoodLog</xpath>
+  </Operation>
+
+  
+  
+<!--Patch for IncenseShrine-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="IncenseShrine"]</xpath>
+    <value>
+      <costStuffCount>100</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="IncenseShrine"]/costList/WoodLog</xpath>
+  </Operation>
+  
+  <!--Patch for Drum-->
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Drum"]/costList</xpath>
+  </Operation>
+
+ <Operation Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
+    <xpath>/Defs/ThingDef[defName="Drum"]/costStuffCount</xpath>
+	<value>
+	<costStuffCount>50</costStuffCount>
+	</value>
+  </Operation>
+  
+    <!--Patch for Drape-->
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Drape"]/costList</xpath>
+  </Operation>
+
+ <Operation Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
+    <xpath>/Defs/ThingDef[defName="Drape"]/costStuffCount</xpath>
+	<value>
+	<costStuffCount>50</costStuffCount>
+	</value>
+  </Operation>
+  <!-- IDEOLOGY DLC -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Plant_TreeGauranlen"]/plant</xpath>
+    <value><harvestedThingDef>JA_WoodGauranlen</harvestedThingDef></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Plant_TreeBonsai"]/plant</xpath>
+    <value><harvestedThingDef>JA_WoodBonsai</harvestedThingDef></value>
+  </Operation>
+
+  
+</Patch>

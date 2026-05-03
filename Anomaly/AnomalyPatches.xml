@@ -1,0 +1,55 @@
+<Patch>
+
+  
+<!--Patch for Darktorch-->
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName="Darktorch"]</xpath>
+  <value Inherit="False">
+    <costList></costList>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+  </value>
+</Operation>
+
+   <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Darktorch"]</xpath>
+    <value>
+      <constructEffect></constructEffect>
+    </value>
+  </Operation>
+  
+ 
+  <!-- ANOMALY DLC -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Plant_TreeGrayPine"]/plant</xpath>
+    <value><harvestedThingDef>JA_WoodGrayPine</harvestedThingDef></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Plant_Witchwood"]/plant</xpath>
+    <value><harvestedThingDef>JA_WoodWitchwood</harvestedThingDef></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Plant_RatPalm"]/plant</xpath>
+    <value><harvestedThingDef>JA_WoodRatPalm</harvestedThingDef></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Plant_TreeHarbinger"]/plant</xpath>
+    <value><harvestedThingDef>JA_WoodHarbinger</harvestedThingDef></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Plant_TreeArchean"]/plant</xpath>
+    <value><harvestedThingDef>JA_WoodArchean</harvestedThingDef></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Plant_TreeSnagroot"]/plant</xpath>
+    <value><harvestedThingDef>JA_WoodSnagroot</harvestedThingDef></value>
+  </Operation>
+  
+</Patch>

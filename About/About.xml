@@ -8,26 +8,7 @@
   </supportedVersions>
 
 <modDependencies>
-	<li>
-		<packageId>ludeon.rimworld.royalty</packageId>
-		<displayName>Royalty DLC</displayName>
-    </li>
-    <li>
-		<packageId>ludeon.rimworld.ideology</packageId>
-		<displayName>Ideology DLC</displayName>
-    </li>
-    <li>
-		<packageId>ludeon.rimworld.biotech</packageId>
-		<displayName>Biotech DLC</displayName>
-    </li>
-    <li>
-		<packageId>ludeon.rimworld.anomaly</packageId>
-		<displayName>Anomaly DLC</displayName>
-    </li>
-	<li>
-		<packageId>ludeon.rimworld.odyssey</packageId>
-		<displayName>Odyssey DLC</displayName>
-    </li>
+	
 	<li>
 		<packageId>brrainz.harmony</packageId>
 		<displayName>Harmony</displayName>

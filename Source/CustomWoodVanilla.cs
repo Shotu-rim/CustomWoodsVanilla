@@ -42,6 +42,7 @@ namespace WoodFilterList
         }
     }
 
+
     // HELPER
 
     public static class WoodHelper
@@ -86,6 +87,7 @@ namespace WoodFilterList
         }
     }
 
+
     // Filter
 
     [HarmonyPatch(typeof(ThingFilter))]
@@ -102,17 +104,21 @@ namespace WoodFilterList
         }
     }
 
+   
+
+ 
+
+
     // Designators filter - is material on the map available
 
     [HarmonyPatch(typeof(Designator_Build), "Visible", MethodType.Getter)]
     public static class Patch_Designator_WoodDropdownFix
     {
-        // Safe way to get Defs without string errors
-        private static readonly HashSet<DesignatorDropdownGroupDef> WoodDropdowns =
-            new HashSet<DesignatorDropdownGroupDef>
+        private static readonly HashSet<string> WoodDropdowns =
+            new HashSet<string>
             {
-                DefDatabase<DesignatorDropdownGroupDef>.GetNamed("JA_Floor_WoodTypes"),
-                DefDatabase<DesignatorDropdownGroupDef>.GetNamed("JA_Bridges")
+                "JA_Floor_WoodTypes",
+                "JA_Bridges"
             };
 
         static void Postfix(Designator_Build __instance, ref bool __result)
@@ -128,15 +134,18 @@ namespace WoodFilterList
             if (map == null)
                 return;
 
-            if (terrain.designatorDropdown != null && WoodDropdowns.Contains(terrain.designatorDropdown))
+            string dropdown = terrain.designatorDropdown?.defName;
+
+            if (dropdown != null && WoodDropdowns.Contains(dropdown))
             {
-                WoodRequirementExtension ext = terrain.GetModExtension<WoodRequirementExtension>();
+                WoodRequirementExtension ext =
+                    terrain.GetModExtension<WoodRequirementExtension>();
 
                 if (ext == null || ext.requiredWood == null)
                     return;
 
-                // Checking ThingDef
-                bool hasWood = map.listerThings.ThingsMatching(ThingRequest.ForDef(ext.requiredWood)).Any();
+                bool hasWood = map.listerThings.AllThings
+                    .Any(t => t.def == ext.requiredWood);
 
                 if (!hasWood)
                     __result = false;
@@ -154,12 +163,12 @@ namespace WoodFilterList
             if (required == null)
                 return;
 
-            // checking match
-            bool exists = map.listerThings.ThingsMatching(ThingRequest.ForDef(required)).Any();
+            bool exists = map.listerThings.AllThings
+                .Any(t => t.def == required);
 
             if (!exists)
                 __result = false;
         }
     }
-
+   
 }

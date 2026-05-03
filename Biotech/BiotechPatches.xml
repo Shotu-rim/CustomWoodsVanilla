@@ -1,0 +1,20 @@
+<Patch>
+  
+  <!--Patch for Fungus Torch!-->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DarktorchFungus"]</xpath>
+    <value>
+      <costStuffCount>0</costStuffCount>
+      <stuffCategories Inherit="false" />
+    </value>
+  </Operation>
+
+  <!-- BIOTECH DLC -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Plant_TreePolux"]/plant</xpath>
+    <value><harvestedThingDef>JA_WoodPolux</harvestedThingDef></value>
+  </Operation>
+
+  
+</Patch>

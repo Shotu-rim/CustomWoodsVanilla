@@ -1,0 +1,60 @@
+<Patch>
+ 
+  
+ <!--Patch for Harp-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Harp"]</xpath>
+    <value>
+      <costStuffCount>150</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Harp"]/costList/WoodLog</xpath>
+  </Operation>
+
+
+  
+<!--Patch for Harpsichord-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Harpsichord"]</xpath>
+    <value>
+      <costStuffCount>250</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Harpsichord"]/costList/WoodLog</xpath>
+  </Operation>
+  
+
+<!--Patch for Piano-->
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Piano"]</xpath>
+    <value>
+      <costStuffCount>220</costStuffCount>
+      <stuffCategories>
+        <li>Woody</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Piano"]/costList/WoodLog</xpath>
+  </Operation>
+
+
+  <!-- ROYALTY DLC -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/plant</xpath>
+    <value><harvestedThingDef>JA_WoodAnima</harvestedThingDef></value>
+  </Operation>
+
+  
+</Patch>
